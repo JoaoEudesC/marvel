@@ -1,0 +1,72 @@
+body{
+     border:solid 25px black;
+     padding: 30px;
+     margin:auto;
+     background-image: url(vingadores7.jpg);
+
+  
+  }
+    
+  
+    
+ 
+
+
+    h1{
+  padding: 50px;
+  margin: auto;
+  color:aliceblue;
+  font-size: 55px;
+  background-color: darkred;
+  padding-top: 1px;
+  border: 25px rgb(1, 1, 65) double;
+  border-radius: 25px 50px;
+  width: 700px;
+  
+    
+
+}
+  
+  
+
+
+  div > h1{text-align: center;}
+
+
+ol{text-decoration: underline;
+font-family:cursive;
+font-weight: 900;
+font-style: italic;}
+
+h2{color:black ; 
+font-weight: 900;
+font-family: cursive;
+text-transform: capitalize;
+font-size: 35px
+;}
+
+.verde{font-size: 25px;}
+#esmaga{color:rgb(32, 100, 0);}
+#ferro{color:gold}
+#soldado{color: rgb(4, 4, 110);}
+#spider{color: rgb(170, 5, 5);}
+#thor{color: rgb(27, 25, 25);}
+#marvel{text-align: center;}
+#miranha{text-align: center;}
+#marvel :hover{background-color: floralwhite; width: 300px; transition-duration: 2s;}
+a{text-decoration: none;
+color: black;
+}
+button :hover{background-color: rgb(255, 0, 0); width: 100px; transition-duration: 2s;}
+#logo{display: inline;
+position: absolute;
+left: 130px; top: 130px; 
+text-align: center;
+}
+
+
+
+
+
+
+
