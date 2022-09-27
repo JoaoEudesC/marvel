@@ -20,6 +20,7 @@ h1{
   border: 25px rgb(1, 1, 65) double;
   border-radius: 25px 50px;
   width: 700px;
+  box-shadow: 10px 10px 10px 10px black;
   
   }
   
@@ -80,7 +81,14 @@ button :hover{background-color: rgb(255, 0, 0); width: 100px; transition-duratio
 position: absolute;
 left: 130px; top: 130px; 
 text-align: center;
+background-color: rgb(97, 0, 0);
 
+}
+
+audio{background-color: rgb(124, 12, 12);
+color: black;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 6px 6px 6px 6px black;
 
 }
 
