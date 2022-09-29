@@ -1,28 +1,28 @@
 body{
-     border:solid 25px black;
-     padding: 30px;
-     margin:auto;
-     background-image: url(vingadores7.jpg);
+border:solid 25px black;
+padding: 30px;
+margin:auto;
+background-image: url(vingadores7.jpg);
+
 }
     
   
     
  
 
-
 h1{
-  padding: 50px;
-  margin: auto;
-  color:aliceblue;
-  font-size: 55px;
-  background-color: darkred;
-  padding-top: 1px;
-  border: 25px rgb(1, 1, 65) double;
-  border-radius: 25px 50px;
-  width: 700px;
-  box-shadow: 10px 10px 10px 10px black;
+padding: 50px;
+margin: auto;
+color:aliceblue;
+font-size: 55px;
+background-color: darkred;
+padding-top: 1px;
+border: 25px rgb(1, 1, 65) double;
+border-radius: 25px 50px;
+width: 700px;
+box-shadow: 10px 10px 10px 10px black;
   
-  }
+}
   
   
 
@@ -30,34 +30,140 @@ h1{
 div > h1{text-align: center;}
 
 
-ol{text-decoration: underline;
-font-family:cursive;
-font-weight: 900;
-font-style: italic;
-
-
+ol{
+text-decoration: underline;
+font-style: unset;
+font-weight: bolder;
+font-style:normal;
+font-size: 19px;
+text-justify: auto;
 }
 
-h2{color:black ; 
+
+
+h2{
+color:black ; 
 font-weight: 900;
 font-family: cursive;
 text-transform: capitalize;
 font-size: 35px;
 
+}
+
+
+.verde{font-size: 20px;}
+
+
+
+
+
+
+
+#esmaga{
+color:black;
+background-color: green;
+width: 80px;
+box-shadow: 6px 6px 6px 6px black;
 
 }
 
-.verde{font-size: 25px;}
 
-#esmaga{color:rgb(32, 100, 0);}
 
-#ferro{color:gold}
 
-#soldado{color: rgb(4, 4, 110);}
 
-#spider{color: rgb(170, 5, 5);}
+#esmaga :hover{
+background-color:rgb(5, 221, 5) ;
+width: 80px;
+transition-duration: 2s;
 
-#thor{color: rgb(27, 25, 25);}
+}
+
+
+
+
+
+
+
+#ferro{
+color:black;
+background-color: rgb(172, 172, 13);
+width: 120px;
+box-shadow: 6px 6px 6px 6px black;
+
+}
+
+
+#ferro :hover{
+background-color:yellow ;
+width: 120px;
+transition-duration: 2s;
+
+}
+
+
+
+
+
+#soldado{
+color:black;
+background-color: rgb(7, 7, 139);
+width: 120px;
+box-shadow: 6px 6px 6px 6px black;
+
+}
+
+
+#soldado :hover{
+background-color:rgb(17, 0, 255) ;
+width: 120px;
+transition-duration: 2s;
+
+}
+  
+
+
+
+
+#spider{
+color:black;
+background-color: rgb(170, 3, 3);
+width: 120px;
+box-shadow: 6px 6px 6px 6px black;
+
+}
+
+#spider :hover{
+background-color: red;
+width: 120px;
+transition-duration: 2s;
+
+}
+  
+
+
+
+
+
+#thor{
+color:black;
+background-color: rgb(107, 107, 107);
+width: 80px;
+box-shadow: 6px 6px 6px 6px black;
+
+}
+
+#thor :hover{
+background-color:rgb(190, 184, 184);
+width: 80px;
+transition-duration: 2s;
+
+}
+  
+
+
+
+
+
 
 #marvel{text-align: center;}
 
@@ -66,26 +172,34 @@ font-size: 35px;
 #marvel :hover{background-color: floralwhite; width: 300px; transition-duration: 2s;}
 
 
-a{text-decoration: none;
+a{
+text-decoration: none;
 color: black;
+font-weight: 700;
 
 }
 
 
 
-button :hover{background-color: rgb(255, 0, 0); width: 100px; transition-duration: 2s;}
 
-
-
-#logo{display: inline;
-position: absolute;
-left: 130px; top: 130px; 
-text-align: center;
-background-color: rgb(97, 0, 0);
+button{
+background-color:rgb(4, 4, 185);
 
 }
 
-audio{background-color: rgb(124, 12, 12);
+
+
+button :hover{
+width: 100px;
+background-color:rgb(252, 4, 4);
+transition-duration: 0.5s;
+
+}
+
+
+
+audio{
+background-color: rgb(124, 12, 12);
 color: black;
 border-radius: 5px 5px 5px 5px;
 box-shadow: 6px 6px 6px 6px black;
