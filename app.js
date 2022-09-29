@@ -2,7 +2,7 @@ console.log("estou funcionando");
 
 
 
-/* function desenvolver(){
+function desenvolver(){
     alert(" desenvolvido por joao carvalho")
 };
 desenvolver()
@@ -31,7 +31,7 @@ alert("voce esta correto se digitou ," + a)
 
 var america = prompt("qual a organizaçao inimiga do capitao america?");
   
-alert("voce esta correto se digitou ," + c)    */
+alert("voce esta correto se digitou ," + c)    
 
 
 
