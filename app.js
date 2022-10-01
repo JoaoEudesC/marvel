@@ -1,48 +1,34 @@
 console.log("estou funcionando");
 
 
-function desenvolver(){
-alert(" desenvolvido por joao carvalho")
-};
-
-
-
-desenvolver()
-
-
-
+var a = "ben"
 var b= "bruce banner"
 var c= "hydra"
-var a = "ben"
+var d = "odin"
+var e= "howard stark"
 
 
+var botao = document.querySelector("button")
+botao.addEventListener("click", quiz)
 
-var hulk = prompt(" qual o nome humano do hulk?");
+function quiz() {
+prompt("qual o nome humano do hulk?")
+alert(`voce esta correto se digitou:  ${b} `)
 
-alert("voce esta correto se digitou ," + b) ;       
- 
+prompt("qual o nome do tio do homem aranha ?")
+alert(("voce esta correto se digitou: " + a))
 
-var aranha = prompt("qual o nome do tio do homem aranha ?")
+prompt("qual a organizaçao inimiga do capitao america?")
+alert(` voce esta correto se digitou: ${c} `)
 
-alert("voce esta correto se digitou ," + a)    
+prompt("qual o nome do pai do thor?")
+alert(`voce esta correto se digitou: ${d}`)
 
+prompt("qual o nome do pai do tony stark")
+alert(`voce esta correto se digitou:${e}`)
 
-var america = prompt("qual a organizaçao inimiga do capitao america?");
-  
-alert("voce esta correto se digitou ," + c)    
-
-
-
-var h1=document.querySelector("h1")
-
-h1.addEventListener("mouseenter" , cor)
-
-function cor ()
-{
-if(h1.style.backgroundColor === "darkred")
-{h1.style.backgroundColor = "blue"
-}
- else{h1.style.backgroundColor = "darkred"}
+var nome = prompt(`como você se chama ?`)
+alert  ("obrigado por responder nosso quiz  "  + nome + " , até a proxima!!")
 
 }
 
@@ -50,10 +36,10 @@ if(h1.style.backgroundColor === "darkred")
 
 
 
-   
 
 
 
- 
+
+
 
 

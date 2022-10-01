@@ -25,6 +25,16 @@ box-shadow: 10px 10px 10px 10px black;
 }
   
   
+#botao{
+border-radius: 20px;
+cursor: pointer;
+font-weight: 900;
+font-size: large;
+
+}
+
+
+
 
 
 div > h1{text-align: center;}
@@ -51,7 +61,9 @@ font-size: 35px;
 }
 
 
-.verde{font-size: 20px;}
+.verde{font-size: 20px;
+cursor: pointer;
+}
 
 
 
@@ -160,16 +172,9 @@ transition-duration: 2s;
 }
   
 
-
-
-
-
-
-#marvel{text-align: center;}
-
 #miranha{text-align: center;}
 
-#marvel :hover{background-color: floralwhite; width: 300px; transition-duration: 2s;}
+
 
 
 a{
@@ -207,8 +212,20 @@ box-shadow: 6px 6px 6px 6px black;
 }
 
 
+span{
+display: block;
+text-align: center;
+cursor: pointer;
+
+}
 
 
+span :hover{background-color: floralwhite; width: 300px; transition-duration: 2s;}
 
+#desenvolvimento{font-size: 20px;
+font-weight: 900;
+text-align:center;
+text-decoration: underline;
+}
 
 
