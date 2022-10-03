@@ -21,9 +21,12 @@ border: 25px rgb(1, 1, 65) double;
 border-radius: 25px 50px;
 width: 700px;
 box-shadow: 10px 10px 10px 10px black;
-  
 }
   
+
+h1 img {
+    width: 100%;
+}
   
 #botao{
 border-radius: 20px;
