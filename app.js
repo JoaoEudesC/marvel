@@ -43,3 +43,16 @@ alert  ("obrigado por responder nosso quiz  "  + nome + " , até a proxima!!")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+

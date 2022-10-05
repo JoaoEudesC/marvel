@@ -1,14 +1,15 @@
+
+
 body{
 border:solid 25px black;
 padding: 30px;
 margin:auto;
 background-image: url(vingadores7.jpg);
 
-}
-    
-  
-    
- 
+
+} 
+
+
 
 h1{
 padding: 50px;
@@ -21,13 +22,16 @@ border: 25px rgb(1, 1, 65) double;
 border-radius: 25px 50px;
 width: 700px;
 box-shadow: 10px 10px 10px 10px black;
-}
-  
+
+} 
+
 
 h1 img {
-    width: 100%;
-}
-  
+width: 100%;
+
+} 
+
+
 #botao{
 border-radius: 20px;
 cursor: pointer;
@@ -133,8 +137,9 @@ background-color:rgb(17, 0, 255) ;
 width: 120px;
 transition-duration: 2s;
 
+
+
 }
-  
 
 
 
@@ -152,8 +157,8 @@ background-color: red;
 width: 120px;
 transition-duration: 2s;
 
-}
-  
+
+} 
 
 
 
@@ -172,8 +177,10 @@ background-color:rgb(190, 184, 184);
 width: 80px;
 transition-duration: 2s;
 
-}
-  
+
+} 
+
+
 
 #miranha{text-align: center;}
 
@@ -232,4 +239,9 @@ text-align:center;
 text-decoration: underline;
 }
 
+input{
+    font-weight: 900;
+    font-size:x-small;
+    
+}
 
