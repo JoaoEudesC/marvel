@@ -2,34 +2,43 @@
 
 body{
 border:solid 25px black;
-padding: 30px;
 margin:auto;
 background-image: url(vingadores7.jpg);
+padding: 15px;
 
 
 } 
 
 
 
-h1{
-padding: 50px;
+header{
 margin: auto;
-color:aliceblue;
-font-size: 55px;
+font-size: 20px;
 background-color: darkred;
-padding-top: 1px;
 border: 25px rgb(1, 1, 65) double;
 border-radius: 25px 50px;
-width: 700px;
 box-shadow: 10px 10px 10px 10px black;
+text-align: center;
+width: 92%;
+
+
 
 } 
 
 
-h1 img {
-width: 100%;
+header img{
+   width: 45%; 
+}
 
-} 
+h1{
+    color: white;
+}
+
+
+
+
+
+
 
 
 #botao{
@@ -37,6 +46,8 @@ border-radius: 20px;
 cursor: pointer;
 font-weight: 900;
 font-size: large;
+width: 60%;
+margin-bottom: 5px;
 
 }
 
