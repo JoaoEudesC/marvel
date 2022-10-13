@@ -27,11 +27,18 @@ width: 92%;
 
 
 header img{
-   width: 45%; 
+width: 45%; 
+
+
 }
 
+
+
+
 h1{
-    color: white;
+color: white;
+
+
 }
 
 
@@ -78,6 +85,13 @@ font-size: 35px;
 
 }
 
+
+.comum{
+    background-color: rgba(128, 128, 128, 0.719);
+    box-shadow: 7px 7px 7px 7px black;
+    width: 140px;
+    cursor: pointer;
+}
 
 .verde{font-size: 20px;
 cursor: pointer;
@@ -177,7 +191,7 @@ transition-duration: 2s;
 
 #thor{
 color:black;
-background-color: rgb(107, 107, 107);
+background-color: darksalmon;
 width: 80px;
 box-shadow: 6px 6px 6px 6px black;
 
@@ -202,6 +216,7 @@ a{
 text-decoration: none;
 color: black;
 font-weight: 700;
+
 
 }
 
@@ -256,3 +271,7 @@ input{
     
 }
 
+nav{
+    margin-top:  100px;
+
+}
