@@ -6,108 +6,197 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="marvel2.ico" type="image/x-icon">
         <title>marvel</title>
+        
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-    
-        <header>
-            <h1 >iniciativa vingadores</h1>
-            <img src="gif-marvel-74.gif" alt="abertura"> 
+        <header id="colores">
+            <h1 >Iniciativa Vingadores</h1>
+            <img src="assets/gif-marvel-74.gif" alt="abertura" class="gif"> 
             <button id="botao">click aqui para responder o quiz</button>
         </header>
         
         <audio preload="auto" autoplay loop  controls>
-            <source src="The Avengers Theme Song.mp3" type="audio/mpeg">
-            <source src="The Avengers Theme Song.mp3" type="audio/ogg">
-            <source src="The Avengers Theme Song.mp3" type="audio/wav">
+            <source src="assets/The Avengers Theme Song.mp3" type="audio/mpeg">
+            <source src="assets/The Avengers Theme Song.mp3" type="audio/ogg">
+            <source src="assets/The Avengers Theme Song.mp3" type="audio/wav">
         </audio>  
-    
+        
         <main>
             <h2><section>poderes e habilidades:</section></h2>
             
-            <p> <img  src="hulk.jpg"   width="50px"  height="auto"  alt="hulk">   
-                <ul  id="esmaga" class="verde">  
-                    <li id="green">  
-                        <b>Hulk</b> 
-                    </li>
-                </ul>
-                <ol class="comum">
-                    <li>Força</li> 
-                    <li>Super salto</li>
-                    <li>Resistencia</li>
-                </ol>
-            </p>   
+            <div id="color">
+                <p> 
+                    <img  src="assets/hulk.jpg"   width="80px"  height="auto"  alt="hulk">   
+                    <ul  id="esmaga" class="verde" >  
+                        <li id="green" class="banner">  
+                            <b>Hulk</b> 
+                        </li>
+                    </ul>
+                    <ol class="comum">
+                        <li>Força</li> 
+                        <li>Super salto</li>
+                        <li>Resistencia</li>
+                    </ol>
+                </p>   
+                
+                
+                <p>
+                    <img src="assets/mini-ferro.png"   width="80px"  height="auto"  alt="homem de ferro">     
+                    <ul id="ferro" class="verde">  
+                        <li id="playboy" class="rbj">
+                            <b>Homem de Ferro </b>
+                        </li>
+                    </ul>
+                    <ol class="comum" id="bilion">
+                        <li>Inteligência</li>
+                        <li>Armadura</li>
+                        <li>Bilionario</li>
+                    </ol>
+                </p>
+                
+                
+                <p> 
+                    <img src="assets/projeto-america.png"   width="80px"  height="auto"  alt="capitao america">
+                    <ul id="soldado" class="verde">
+                        <li id="velho" class="old">
+                            <b>Capitão America</b> 
+                        </li>
+                    </ul>
+                    <ol class="comum" id="star">
+                        <li>rejuvenecimento</li>
+                        <li>Força</li>
+                        <li>Massa muscular</li>
+                    </ol>
+                </p>
+                
+                
+                <p>
+                    <img src="assets/miranha.jpg"   width="80px"  height="auto"  alt="homem aranha">
+                    <ul id="spider"class="verde">
+                        <li id="aracne" class="mask">
+                            <b>Homem Aranha</b>
+                        </li>
+                    </ul>
+                    <ol class="comum" id="parker">
+                        <li>super sentido</li>
+                        <li>Lança teias</li>
+                        <li>força</li>
+                    </ol>
+                </p> 
+                
+                
+                <p> 
+                    <img src="assets/mini-thor.jpg"   width="80px"  height="auto"  alt="thor">
+                    <ul  id="thor"class="verde"> 
+                        <li id="trovao" class="muscle">
+                            <b>Thor</b>
+                        </li>
+                    </ul>
+                    <ol class="comum" id="thunder">
+                        <li>Controla raios</li>
+                        <li>Voa</li>
+                        <li>Possui o Mjolnir</li>
+                    </ol>
+                </p>
+                
+                
+                <p> 
+                    <img  src="assets/estranho.jpg"   width="85px"  height="auto"  alt="hulk" >   
+                    <ul  id="esmaga" class="verde">  
+                        <li id="strange" class="banner">  
+                            <b>DR.Estranho</b> 
+                        </li>
+                    </ul>
+                    <ol class="comum" id="estranho">
+                        <li>Mudras</li> 
+                        <li>Sigilos</li>
+                        <li>O Olho de Agamoto</li>
+                    </ol>
+                </p>   
+                
+                
+                <p>
+                    <img src="assets/formiga.jpg"   width="85px"  height="auto"  alt="formiga">     
+                    <ul id="ferro" class="verde">  
+                        <li id="formiga" class="rbj">
+                            <b>Homem Formiga </b>
+                        </li>
+                    </ul>
+                    <ol class="comum" id="big">
+                        <li>Alteração de Tamanho</li>
+                        <li>Cmunicação com Insetos</li>
+                        <li>Formiga Super Força</li>
+                    </ol>
+                </p>
         
         
-            <p><img src="mini-ferro.png"   width="50px"  height="auto"  alt="homem de ferro">     
-                <ul id="ferro" class="verde">  
-                    <li id="playboy">
-                        <b>Homem de Ferro </b>
-                    </li>
-                </ul>
-                <ol class="comum" id="bilion">
-                    <li>Inteligência</li>
-                    <li>Armadura</li>
-                    <li>Bilionario</li>
-                </ol>
-            </p>
-    
-    
-            <p> <img src="projeto-america.png"   width="50px"  height="auto"  alt="capitao america">
-                <ul id="soldado" class="verde">
-                    <li id="velho">
-                        <b>Capitão America</b> 
-                    </li>
-                </ul>
-                <ol class="comum" id="star">
-                    <li>rejuvenecimento</li>
-                    <li>Força</li>
-                    <li>Massa muscular</li>
-                </ol>
-            </p>
-    
-    
-            <p><img src="miranha.jpg"   width="50px"  height="auto"  alt="homem aranha">
-                <ul id="spider"class="verde">
-                    <li id="aracne">
-                        <b>Homem Aranha</b>
-                    </li>
-                </ul>
-                <ol class="comum" id="parker">
-                    <li>super sentido</li>
-                    <li>Lança teias</li>
-                    <li>força</li>
-                </ol>
-            </p> 
-    
-    
-            <p> <img src="mini-thor.jpg"   width="50px"  height="auto"  alt="thor">
-                <ul  id="thor"class="verde"> 
-                    <li id="trovao">
-                        <b>Thor</b>
-                    </li>
-                </ul>
-                <ol class="comum" id="thunder">
-                    <li>Controla raios</li>
-                    <li>Voa</li>
-                    <li>Possui o Mjolnir</li>
-                </ol>
-            </p>
+                <p> 
+                    <img src="assets/gaviao.jpg"   width="85px"  height="auto"  alt="capitao america">
+                    <ul id="soldado" class="verde">
+                        <li id="arrow" class="old">
+                            <b>Gavião Arqueiro</b> 
+                        </li>
+                    </ul>
+                    <ol class="comum" id="bow">
+                        <li>Mestre em Flechas</li>
+                        <li>Agilidade</li>
+                        <li>Visao Etrategica</li>
+                    </ol>
+                </p>
+        
+        
+                <p>
+                    <img src="assets/viuva negra.png"   width="85px"  height="auto"  alt="homem aranha">
+                    <ul id="spider"class="verde">
+                        <li id="russia" class="mask">
+                            <b>Viuva Negra</b>
+                        </li>
+                    </ul>
+                    <ol class="comum" id="sminorf">
+                        <li>Força</li>
+                        <li>Durabilidade</li>
+                        <li>Agilidade</li>
+                    </ol>
+                </p> 
+        
+        
+                <p> 
+                    <img src="assets/pantera negra.png"   width="85px"  height="auto"  alt="thor">
+                    <ul  id="thor"class="verde"> 
+                        <li id="wakanda" class="muscle">
+                            <b>Pantera Negra</b>
+                        </li>
+                    </ul>
+                    <ol class="comum" id="black">
+                        <li>Intelecto</li>
+                        <li>Invisibilidade</li>
+                        <li>Expert em combates</li>
+                    </ol>
+                </p>
+            </div>
+            
+            <footer>
+                <nav>
+                    
+                    <ul id="rodape">
+                        <h3>Consultar:</h3>
+                        <li><input type="text"placeholder="hulk page"><button><a href="https://en.wikipedia.org/wiki/Hulk">press here</a></li></button>
+                        <li><input type="text"placeholder="homem de ferro page"><button><a href="https://pt.wikipedia.org/wiki/Homem_de_Ferro">press here</a></li></button>
+                        <li><input type="text"placeholder="capitão america page"><button><a href="https://pt.wikipedia.org/wiki/Capit%C3%A3o_Am%C3%A9rica">press here</a></li></button>
+                        <li><input type="text"placeholder="homem aranha page"><button><a  href="https://pt.wikipedia.org/wiki/Homem-Aranha">press here</a></li></button>
+                        <li><input type="text"placeholder="thor page"><button><a href="https://pt.wikipedia.org/wiki/Thor">press here</a></li></button>
+                        <li><input type="text"placeholder="DR.Strange page"><button><a href="https://pt.wikipedia.org/wiki/Doutor_Estranho">press here</a></li></button>
+                        <li><input type="text"placeholder="Homem Formiga page"><button><a href="https://pt.wikipedia.org/wiki/Homem-Formiga">press here</a></li></button>
+                        <li><input type="text"placeholder="Gaviao Arqueiro page"><button><a href="https://pt.wikipedia.org/wiki/Gavi%C3%A3o_Arqueiro">press here</a></li></button>
+                        <li><input type="text"placeholder="Viuva Negra page"><button><a href="https://pt.wikipedia.org/wiki/Vi%C3%BAva_Negra_(Marvel_Comics)">press here</a></li></button>
+                        <li><input type="text"placeholder="Pantera Negra page"><button><a href="https://pt.wikipedia.org/wiki/Pantera_Negra_(Marvel_Comics)">press here</a></li></button>
+                    </ul>
+                </nav>
+                <span><img src="assets/Marvel-Logo-2012-2014.png"   width="200px"  height="auto"  alt="marvel Marvel-Logo-2012-2014"></span>
+                <span id="desenvolvimento">desenvolvido por joão carvalho</span>
+            </footer>
         </main>
-    
-        <footer>
-            <nav>
-                <ul>
-                    <li><input type="text"placeholder="capitão america page"><button><a href="https://pt.wikipedia.org/wiki/Capit%C3%A3o_Am%C3%A9rica">press here</a></li></button>
-                    <li><input type="text"placeholder="hulk page"><button><a href="https://en.wikipedia.org/wiki/Hulk">press here</a></li></button>
-                    <li><input type="text"placeholder="homem aranha page"><button><a  href="https://pt.wikipedia.org/wiki/Homem-Aranha">press here</a></li></button>
-                    <li><input type="text"placeholder="thor page"><button><a href="https://pt.wikipedia.org/wiki/Thor">press here</a></li></button>
-                    <li><input type="text"placeholder="homem de ferro page"><button><a href="https://pt.wikipedia.org/wiki/Homem_de_Ferro">press here</a></li></button>
-                </ul>
-            </nav>
-            <span><img src="Marvel-Logo-2012-2014.png"   width="200px"  height="auto"  alt="marvel Marvel-Logo-2012-2014"></span>
-            <span id="desenvolvimento" >desenvolvido por joão carvalho</span>
-        </footer>
-    <script src="app.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
