@@ -17,7 +17,7 @@ header{
   background-color: darkred;
   border: 25px rgb(1, 1, 65) double;
   border-radius: 25px 50px;
-  box-shadow: 10px 10px 10px 10px black;
+  box-shadow: 4px 4px 4px 4px black;
   text-align: center;
   width: 84%;
 } 
@@ -303,6 +303,13 @@ h3{
   font-size: 30px;
 }
 
+
+
+@media(max-width:415px){
+  #tamanho{
+    font-size: 20px;
+  }
+}
 
 
 
